@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: antiquewhite;
+}
+span{
+    color: orange;
+}
+.logo{
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    height: 30px;
+}
+li{
+    list-style: none;
+    padding: 6px 15px;
+}
+.sign{
+    background-color: orange;
+    border-radius: 5px;
+}
+.part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+}
+.card{
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 3px 3px 10px gainsboro;
+}
+img{
+    height: 200px;
+    width: 100%;
+    object-fit: fill;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.info{
+    display: block;
+    margin: 4px 4px;
+    padding: 10px;
+}
